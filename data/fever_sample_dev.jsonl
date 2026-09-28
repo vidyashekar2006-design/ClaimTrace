@@ -1,0 +1,10 @@
+{"id": 1001, "verifiable": "VERIFIABLE", "label": "SUPPORTS", "claim": "Nikolaj Coster-Waldau played Jaime Lannister in Game of Thrones.", "evidence": [[[101, 101, "Nikolaj_Coster-Waldau", 3]]]}
+{"id": 1002, "verifiable": "VERIFIABLE", "label": "REFUTES", "claim": "Michael Bay has never directed any action film.", "evidence": [[[102, 102, "Michael_Bay", 1]]]}
+{"id": 1003, "verifiable": "VERIFIABLE", "label": "SUPPORTS", "claim": "Roman Atwood produces content on his YouTube channel RomanAtwoodVlogs.", "evidence": [[[103, 103, "Roman_Atwood", 1]]]}
+{"id": 1004, "verifiable": "VERIFIABLE", "label": "REFUTES", "claim": "The Godfather was directed by Steven Spielberg.", "evidence": [[[104, 104, "The_Godfather", 0]]]}
+{"id": 1005, "verifiable": "NOT VERIFIABLE", "label": "NOT ENOUGH INFO", "claim": "Nikolaj Coster-Waldau was a professional NBA basketball player.", "evidence": []}
+{"id": 1006, "verifiable": "VERIFIABLE", "label": "REFUTES", "claim": "Mount Everest has an elevation lower than 5000 metres.", "evidence": [[[106, 106, "Mount_Everest", 2]]]}
+{"id": 1007, "verifiable": "NOT VERIFIABLE", "label": "NOT ENOUGH INFO", "claim": "Roman Atwood owns an antique bicycle collection in Kyoto.", "evidence": []}
+{"id": 1008, "verifiable": "VERIFIABLE", "label": "REFUTES", "claim": "Marie Curie never received any scientific award.", "evidence": [[[108, 108, "Marie_Curie", 1]]]}
+{"id": 1009, "verifiable": "NOT VERIFIABLE", "label": "NOT ENOUGH INFO", "claim": "Marie Curie spoke fluent Esperanto with her students.", "evidence": []}
+{"id": 1010, "verifiable": "VERIFIABLE", "label": "SUPPORTS", "claim": "Murda Beatz produced the hit single Nice for What by Drake.", "evidence": [[[110, 110, "Murda_Beatz", 3]]]}

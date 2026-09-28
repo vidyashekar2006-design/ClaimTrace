@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit config and cache
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw large dataset dumps
+data/raw/
+data/fever_official_train.jsonl
+data/fever_official_dev.jsonl
+data/wiki-pages.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

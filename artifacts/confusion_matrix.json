@@ -1,0 +1,17 @@
+{
+  "SUPPORTED": {
+    "SUPPORTED": 3,
+    "REFUTED": 0,
+    "NOT ENOUGH INFO": 0
+  },
+  "REFUTED": {
+    "SUPPORTED": 1,
+    "REFUTED": 3,
+    "NOT ENOUGH INFO": 0
+  },
+  "NOT ENOUGH INFO": {
+    "SUPPORTED": 0,
+    "REFUTED": 0,
+    "NOT ENOUGH INFO": 3
+  }
+}
