@@ -1,51 +1,52 @@
 {
-  "metadata": {
-    "mode": "quick",
-    "max_samples": null,
-    "eval_file": "fever_sample_dev.jsonl",
-    "timestamp": 1790511341.937095,
-    "formatted_time": "2026-09-27 12:15:41 UTC",
-    "model_architecture": "typeform/distilbert-base-uncased-mnli"
-  },
-  "methods": {
-    "bm25": {
+  "project": "ClaimTrace",
+  "evaluation_type": "sample_fever_style_benchmark",
+  "dataset": "fever_sample_dev.jsonl",
+  "corpus": "fever_sample_corpus.jsonl",
+  "mode": "quick",
+  "max_samples": null,
+  "top_k": 5,
+  "methods": [
+    {
+      "method": "bm25",
+      "dataset": "fever_sample_dev.jsonl",
       "sample_size": 10,
       "verifiable_claims": 7,
       "evidence_recall_at_5": 1.0,
       "accuracy": 0.9,
-      "macro_precision": 0.9167,
-      "macro_recall": 0.9167,
-      "macro_f1": 0.9048,
+      "macro_f1": 0.9047619047619048,
       "fever_score": 0.9,
-      "avg_retrieval_latency_sec": 0.0001,
-      "avg_inference_latency_sec": 0.0006,
-      "total_latency_sec": 0.0007
+      "avg_retrieval_latency_sec": 0.0,
+      "avg_verification_latency_sec": 0.0,
+      "avg_total_latency_sec": 0.0
     },
-    "semantic": {
+    {
+      "method": "semantic",
+      "dataset": "fever_sample_dev.jsonl",
       "sample_size": 10,
       "verifiable_claims": 7,
       "evidence_recall_at_5": 1.0,
       "accuracy": 0.9,
-      "macro_precision": 0.9167,
-      "macro_recall": 0.9167,
-      "macro_f1": 0.9048,
+      "macro_f1": 0.9047619047619048,
       "fever_score": 0.9,
-      "avg_retrieval_latency_sec": 0.0002,
-      "avg_inference_latency_sec": 0.0005,
-      "total_latency_sec": 0.0007
+      "avg_retrieval_latency_sec": 0.0,
+      "avg_verification_latency_sec": 0.0,
+      "avg_total_latency_sec": 0.0
     },
-    "hybrid": {
+    {
+      "method": "hybrid",
+      "dataset": "fever_sample_dev.jsonl",
       "sample_size": 10,
       "verifiable_claims": 7,
       "evidence_recall_at_5": 1.0,
       "accuracy": 0.9,
-      "macro_precision": 0.9167,
-      "macro_recall": 0.9167,
-      "macro_f1": 0.9048,
+      "macro_f1": 0.9047619047619048,
       "fever_score": 0.9,
-      "avg_retrieval_latency_sec": 0.0003,
-      "avg_inference_latency_sec": 0.0006,
-      "total_latency_sec": 0.0009
+      "avg_retrieval_latency_sec": 0.0,
+      "avg_verification_latency_sec": 0.0,
+      "avg_total_latency_sec": 0.0
     }
-  }
+  ],
+  "generated_at": "2026-10-04T23:45:44.321499",
+  "note": "This evaluation uses the bundled FEVER-style sample dataset and corpus. It is not the full official FEVER benchmark."
 }

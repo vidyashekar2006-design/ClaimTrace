@@ -1,17 +1,74 @@
 {
-  "SUPPORTED": {
-    "SUPPORTED": 3,
-    "REFUTED": 0,
-    "NOT ENOUGH INFO": 0
+  "bm25": {
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3
+      ]
+    ],
+    "labels": [
+      "SUPPORTED",
+      "REFUTED",
+      "NEI"
+    ]
   },
-  "REFUTED": {
-    "SUPPORTED": 1,
-    "REFUTED": 3,
-    "NOT ENOUGH INFO": 0
+  "semantic": {
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3
+      ]
+    ],
+    "labels": [
+      "SUPPORTED",
+      "REFUTED",
+      "NEI"
+    ]
   },
-  "NOT ENOUGH INFO": {
-    "SUPPORTED": 0,
-    "REFUTED": 0,
-    "NOT ENOUGH INFO": 3
+  "hybrid": {
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3
+      ]
+    ],
+    "labels": [
+      "SUPPORTED",
+      "REFUTED",
+      "NEI"
+    ]
   }
 }

@@ -1,31 +1,4 @@
-experiment_mode,retrieval_method,claim_id,claim,gold_label,pred_label,confidence,evidence_recalled,fever_correct,retrieved_evidence_ids
-quick,bm25,1001,Nikolaj Coster-Waldau played Jaime Lannister in Game of Thrones.,SUPPORTED,SUPPORTED,0.9935,True,True,Nikolaj_Coster-Waldau:1;Nikolaj_Coster-Waldau:0;Nikolaj_Coster-Waldau:3;Nikolaj_Coster-Waldau:7;Nikolaj_Coster-Waldau:2
-quick,bm25,1002,Michael Bay has never directed any action film.,REFUTED,REFUTED,0.9986,True,True,Michael_Bay:2;Michael_Bay:0;Michael_Bay:1;Michael_Bay:3;Michael_Bay:4
-quick,bm25,1003,Roman Atwood produces content on his YouTube channel RomanAtwoodVlogs.,SUPPORTED,SUPPORTED,0.9767,True,True,Roman_Atwood:3;Roman_Atwood:0;Roman_Atwood:2;Roman_Atwood:1;Roman_Atwood:4
-quick,bm25,1004,The Godfather was directed by Steven Spielberg.,REFUTED,SUPPORTED,0.9828,True,False,The_Godfather:0;The_Godfather:1;Mount_Everest:2;The_Godfather:3;Mount_Everest:4
-quick,bm25,1005,Nikolaj Coster-Waldau was a professional NBA basketball player.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9987,True,True,Nikolaj_Coster-Waldau:1;Nikolaj_Coster-Waldau:5;Nikolaj_Coster-Waldau:4;Nikolaj_Coster-Waldau:0;Nikolaj_Coster-Waldau:2
-quick,bm25,1006,Mount Everest has an elevation lower than 5000 metres.,REFUTED,REFUTED,0.8464,True,True,Mount_Everest:1;Mount_Everest:0;Mount_Everest:3;Mount_Everest:2;Mount_Everest:4
-quick,bm25,1007,Roman Atwood owns an antique bicycle collection in Kyoto.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9989,True,True,Roman_Atwood:3;Roman_Atwood:0;Roman_Atwood:2;Roman_Atwood:1;Roman_Atwood:4
-quick,bm25,1008,Marie Curie never received any scientific award.,REFUTED,REFUTED,0.9978,True,True,Marie_Curie:3;Marie_Curie:0;Marie_Curie:2;Nikolaj_Coster-Waldau:4;Marie_Curie:1
-quick,bm25,1009,Marie Curie spoke fluent Esperanto with her students.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9987,True,True,The_Godfather:0;Marie_Curie:3;Marie_Curie:0;Marie_Curie:2;Marie_Curie:1
-quick,bm25,1010,Murda Beatz produced the hit single Nice for What by Drake.,SUPPORTED,SUPPORTED,0.9945,True,True,Murda_Beatz:1;Murda_Beatz:0;Murda_Beatz:4;Murda_Beatz:3;Murda_Beatz:2
-quick,semantic,1001,Nikolaj Coster-Waldau played Jaime Lannister in Game of Thrones.,SUPPORTED,SUPPORTED,0.9935,True,True,Nikolaj_Coster-Waldau:1;Nikolaj_Coster-Waldau:0;Nikolaj_Coster-Waldau:3;Nikolaj_Coster-Waldau:7;Nikolaj_Coster-Waldau:2
-quick,semantic,1002,Michael Bay has never directed any action film.,REFUTED,REFUTED,0.9986,True,True,Michael_Bay:2;Michael_Bay:0;Michael_Bay:1;Michael_Bay:3;Michael_Bay:4
-quick,semantic,1003,Roman Atwood produces content on his YouTube channel RomanAtwoodVlogs.,SUPPORTED,SUPPORTED,0.9767,True,True,Roman_Atwood:3;Roman_Atwood:0;Roman_Atwood:2;Roman_Atwood:1;Roman_Atwood:4
-quick,semantic,1004,The Godfather was directed by Steven Spielberg.,REFUTED,SUPPORTED,0.9828,True,False,The_Godfather:0;The_Godfather:1;Marie_Curie:2;The_Godfather:3;Mount_Everest:4
-quick,semantic,1005,Nikolaj Coster-Waldau was a professional NBA basketball player.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9987,True,True,Nikolaj_Coster-Waldau:5;Nikolaj_Coster-Waldau:4;Nikolaj_Coster-Waldau:0;Nikolaj_Coster-Waldau:3;Nikolaj_Coster-Waldau:2
-quick,semantic,1006,Mount Everest has an elevation lower than 5000 metres.,REFUTED,REFUTED,0.8464,True,True,Mount_Everest:1;Mount_Everest:0;Mount_Everest:3;Mount_Everest:2;Mount_Everest:4
-quick,semantic,1007,Roman Atwood owns an antique bicycle collection in Kyoto.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9989,True,True,Roman_Atwood:3;Roman_Atwood:0;Roman_Atwood:2;Roman_Atwood:1;Roman_Atwood:4
-quick,semantic,1008,Marie Curie never received any scientific award.,REFUTED,REFUTED,0.9978,True,True,Marie_Curie:3;Marie_Curie:0;Marie_Curie:2;Nikolaj_Coster-Waldau:4;Marie_Curie:1
-quick,semantic,1009,Marie Curie spoke fluent Esperanto with her students.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9987,True,True,The_Godfather:0;Marie_Curie:3;Marie_Curie:0;Marie_Curie:2;Marie_Curie:1
-quick,semantic,1010,Murda Beatz produced the hit single Nice for What by Drake.,SUPPORTED,SUPPORTED,0.9945,True,True,Murda_Beatz:1;Murda_Beatz:0;Murda_Beatz:3;The_Godfather:2;Murda_Beatz:2
-quick,hybrid,1001,Nikolaj Coster-Waldau played Jaime Lannister in Game of Thrones.,SUPPORTED,SUPPORTED,0.9935,True,True,Nikolaj_Coster-Waldau:1;Nikolaj_Coster-Waldau:0;Nikolaj_Coster-Waldau:3;Nikolaj_Coster-Waldau:7;Nikolaj_Coster-Waldau:2
-quick,hybrid,1002,Michael Bay has never directed any action film.,REFUTED,REFUTED,0.9986,True,True,Michael_Bay:2;Michael_Bay:0;Michael_Bay:1;Michael_Bay:3;Michael_Bay:4
-quick,hybrid,1003,Roman Atwood produces content on his YouTube channel RomanAtwoodVlogs.,SUPPORTED,SUPPORTED,0.9767,True,True,Roman_Atwood:3;Roman_Atwood:0;Roman_Atwood:2;Roman_Atwood:1;Roman_Atwood:4
-quick,hybrid,1004,The Godfather was directed by Steven Spielberg.,REFUTED,SUPPORTED,0.9828,True,False,The_Godfather:0;The_Godfather:1;Marie_Curie:2;The_Godfather:3;Mount_Everest:4
-quick,hybrid,1005,Nikolaj Coster-Waldau was a professional NBA basketball player.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9987,True,True,Nikolaj_Coster-Waldau:5;Nikolaj_Coster-Waldau:4;Nikolaj_Coster-Waldau:0;Nikolaj_Coster-Waldau:3;Nikolaj_Coster-Waldau:2
-quick,hybrid,1006,Mount Everest has an elevation lower than 5000 metres.,REFUTED,REFUTED,0.8464,True,True,Mount_Everest:1;Mount_Everest:0;Mount_Everest:3;Mount_Everest:2;Mount_Everest:4
-quick,hybrid,1007,Roman Atwood owns an antique bicycle collection in Kyoto.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9989,True,True,Roman_Atwood:3;Roman_Atwood:0;Roman_Atwood:2;Roman_Atwood:1;Roman_Atwood:4
-quick,hybrid,1008,Marie Curie never received any scientific award.,REFUTED,REFUTED,0.9978,True,True,Marie_Curie:3;Marie_Curie:0;Marie_Curie:2;Nikolaj_Coster-Waldau:4;Marie_Curie:1
-quick,hybrid,1009,Marie Curie spoke fluent Esperanto with her students.,NOT ENOUGH INFO,NOT ENOUGH INFO,0.9987,True,True,The_Godfather:0;Marie_Curie:3;Marie_Curie:0;Marie_Curie:2;Marie_Curie:1
-quick,hybrid,1010,Murda Beatz produced the hit single Nice for What by Drake.,SUPPORTED,SUPPORTED,0.9945,True,True,Murda_Beatz:1;Murda_Beatz:0;Murda_Beatz:3;The_Godfather:2;Murda_Beatz:2
+method,dataset,sample_size,verifiable_claims,evidence_recall_at_5,accuracy,macro_f1,fever_score,avg_retrieval_latency_sec,avg_verification_latency_sec,avg_total_latency_sec
+bm25,fever_sample_dev.jsonl,10,7,1.0,0.9,0.9047619047619048,0.9,0.0,0.0,0.0
+semantic,fever_sample_dev.jsonl,10,7,1.0,0.9,0.9047619047619048,0.9,0.0,0.0,0.0
+hybrid,fever_sample_dev.jsonl,10,7,1.0,0.9,0.9047619047619048,0.9,0.0,0.0,0.0
